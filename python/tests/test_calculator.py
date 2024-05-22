@@ -1,4 +1,4 @@
-import calculator
+import calculator  # type: ignore
 
 
 def test_add() -> None:
