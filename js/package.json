@@ -1,0 +1,17 @@
+{
+  "name": "calculator",
+  "version": "0.1.0",
+  "scripts": {
+    "build:wasm": "wasm-pack build --target web --out-dir ./pkg",
+    "build:ts": "tsc",
+    "build": "yarn build:wasm && yarn build:ts",
+    "serve": "http-server . -c-1"
+
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "http-server": "^14.1.1",
+    "typescript": "^5.4.5",
+    "wasm-pack": "^0.12.1"
+  }
+}

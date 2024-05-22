@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "calculator"
+version = "0.1.0"
+description = ""
+authors = ["sawaca96 <sawaca96@gmail.com>"]
+packages = [{ include = "calculator" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+maturin = "^1.5.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+
+[build-system]
+requires = ["maturin"]
+build-backend = "maturin"
