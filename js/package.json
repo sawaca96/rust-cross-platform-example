@@ -2,7 +2,7 @@
   "name": "calculator",
   "version": "0.1.0",
   "scripts": {
-    "build:wasm": "wasm-pack build --target web --out-dir ./pkg",
+    "build:wasm": "wasm-pack build --target web --out-dir ./js/pkg",
     "build:ts": "tsc",
     "build": "yarn build:wasm && yarn build:ts",
     "serve": "http-server . -c-1"
