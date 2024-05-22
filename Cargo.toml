@@ -13,5 +13,9 @@ version = "0.21.2"
 optional = true
 features = ["extension-module"]
 
+[features]
+default = []
+python-extension = ["pyo3"]
+
 [lib]
 crate-type = ["cdylib"]
